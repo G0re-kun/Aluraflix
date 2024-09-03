@@ -1,5 +1,37 @@
 body {
-    color:white;
+    color:palevioletred;
     background: pink;
-    
+    font-family: "Playwrite CU", cursive;
+    margin: 0px;
+}
+
+header{
+    border-bottom: solid 2xp rgb(pink);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(white)
+}
+.chamada {
+    background: rgb(255, 210, 227);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+   
+ margin-right: 5%;
+}
+img{
+    height:200px;
+}
+.categoria-video{
+    display:flex;
+    overflow-x:auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
 }
